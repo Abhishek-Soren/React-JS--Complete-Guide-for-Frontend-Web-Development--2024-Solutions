@@ -1,0 +1,15 @@
+div {
+  background-image: linear-gradient(to right, #59d5e0, #ff407d);
+  padding: 20px;
+}
+
+span {
+  background-color: #333a73;
+  padding: 15px;
+  margin-left: 10px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 20px;
+}

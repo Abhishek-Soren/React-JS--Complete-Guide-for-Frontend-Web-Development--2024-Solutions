@@ -1,0 +1,21 @@
+.nav-bar{
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.nav-bar-item{
+background-color: aliceblue;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding: 10px;
+margin-left: 10px;
+text-transform: uppercase;
+}
+
+h2{
+  margin-bottom: 200px;
+  text-transform: uppercase;
+}
+
+.food, footer{
+  text-align: center;
+}

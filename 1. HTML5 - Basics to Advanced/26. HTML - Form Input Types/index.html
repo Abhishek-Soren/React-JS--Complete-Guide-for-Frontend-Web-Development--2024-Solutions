@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Forms</title>
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <form>
+      <div>
+        Full Name: <br />
+        <input type="text" name="full-name" />
+      </div>
+      <div>
+        Email: <br />
+        <input type="email" name="email" />
+      </div>
+      <div>
+        Password: <br />
+        <input type="password" name="password" />
+      </div>
+      <div>
+        Confirm Password: <br />
+        <input type="password" name="confirm-password" />
+      </div>
+      <div>
+        Gender: <br />
+        <input type="radio" name="male" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="other" id="other" />
+        <label for="other">Other</label>
+      </div>
+      <div>
+        Security Question: <br />
+        <select name="security-question" id="security-question">
+          <option value="">--Please choose an option--</option>
+          <option value="security-question-1">
+            What is the name of your favorite pet?
+          </option>
+          <option value="security-question-2">
+            What was the name of your elementary school?
+          </option>
+          <option value="security-question-3">
+            What was your favorite food as a child?
+          </option>
+          <option value="security-question-4">
+            What high school did you attend?
+          </option>
+          <option value="security-question-5">
+            What year was your father (or mother) born?
+          </option></select
+        ><br />
+        <textarea
+          name="security-question-answer"
+          id="security-question-answer"
+          cols="38"
+          rows="5"
+        >
+Write your answer</textarea
+        >
+      </div>
+      <div>
+        <input type="checkbox" name="terms" id="terms" />
+        <label for="terms">I agree to accept the terms and conditions.</label>
+      </div>
+      <div><input type="submit" value="Register" /></div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Tables</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px black dashed;
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        padding: 16px;
+        text-align: center;
+      }
+
+      table {
+        width: 600px;
+        margin: 24px;
+        background-color: fuchsia;
+      }
+
+      caption {
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        My Time table
+      </caption>
+      <tr>
+        <td rowspan="6">Hours</td>
+        <th>Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Thirsday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Art</td>
+        <td>English</td>
+        <td>Sports</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Art</td>
+        <td>English</td>
+        <td>Sports</td>
+      </tr>
+      <tr>
+        <td colspan="5">Lunch Break</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Art</td>
+        <td>English</td>
+        <td>Sports</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Art</td>
+        <td>English</td>
+        <td>Sports</td>
+      </tr>
+    </table>
+  </body>
+</html>

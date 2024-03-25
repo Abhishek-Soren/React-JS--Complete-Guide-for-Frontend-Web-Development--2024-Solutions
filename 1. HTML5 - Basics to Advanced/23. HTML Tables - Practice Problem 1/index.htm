@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <style>
+      table {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+      }
+
+      pre {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0%;
+      }
+
+      table,
+      td {
+        border: 1px black solid;
+        border-collapse: collapse;
+      }
+
+      td {
+        padding: 16px;
+      }
+
+      .strong-text {
+        background-color: lightblue;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="strong-text" colspan="3">Invoice #12345ABC</td>
+        <td class="strong-text">25 March 2024</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <pre>
+Pay To:
+The Tech park
+123 Willo Street
+Boulevard, LA - 567892</pre
+          >
+        </td>
+        <td colspan="2">
+          <pre>
+Customer:
+Abhishek Soren
+Potato Apartments
+276 Main Street
+BOulevard, LA - 567892</pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td class="strong-text">Name/ Description</td>
+        <td class="strong-text">Qty.</td>
+        <td class="strong-text">MRP</td>
+        <td class="strong-text">Amount</td>
+      </tr>
+      <tr>
+        <td>Biryani</td>
+        <td>3</td>
+        <td>400</td>
+        <td>1200</td>
+      </tr>
+      <tr>
+        <td>Carbonated Drink</td>
+        <td>3</td>
+        <td>200</td>
+        <td>600</td>
+      </tr>
+      <tr>
+        <td class="strong-text" colspan="3">Subtotal:</td>
+        <td>1800</td>
+      </tr>
+      <tr>
+        <td class="strong-text" colspan="2">Tax</td>
+        <td>10%</td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td class="strong-text" colspan="3">Grand Total:</td>
+        <td>Rs. 1620</td>
+      </tr>
+    </table>
+  </body>
+</html>

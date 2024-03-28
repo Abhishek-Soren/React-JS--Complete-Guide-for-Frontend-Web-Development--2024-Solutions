@@ -1,0 +1,52 @@
+body {
+   background-color:  #f2f6ff;
+   text-align: center;
+}
+
+form{
+  background-color: white;
+  border: black solid 1px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  height: 50px;
+  padding: 16px 32px 16px 32px;
+}
+
+.icons {
+  background-color:  #f2f6ff;
+  padding: 16px;
+}
+
+.heading {
+  font-size: 32px;
+  padding-top: 56px;
+  padding-bottom: 32px;
+}
+
+.input {
+  padding: 80px 80px 40px 80px;
+}
+
+.input-item {
+  font-size: 18px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 12px 24px 12px 0px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 16px;
+  width: 400px;
+}
+
+#register {
+  background-color: #0056ff;
+  padding: 12px 24px 12px 24px;
+  font-size: 18px;
+  color: white;
+  border: 0cm;
+  margin-bottom: 40px;
+}

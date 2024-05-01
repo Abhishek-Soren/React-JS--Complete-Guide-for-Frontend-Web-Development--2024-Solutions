@@ -1,0 +1,15 @@
+.para1 {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 20px 60px 100px 200px;
+    background-color: aquamarine;
+    margin: 100px 200px;
+}
+
+#para2 {
+    border: red 5px;
+    border-style: dotted double dashed solid;
+    border-radius: 10px;
+    padding: 20px 60px;
+    margin: 50px 100px 150px 300px;
+}

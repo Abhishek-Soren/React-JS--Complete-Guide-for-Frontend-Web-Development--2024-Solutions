@@ -1,0 +1,23 @@
+#orderedlist1 {
+    list-style-type: upper-roman;
+    color: red;
+    list-style-position: inside;
+}
+
+#orderedlist2 {
+    list-style-type: upper-alpha;
+    color: black;
+    list-style-position: outside;
+}
+
+#unorderedlist1 {
+    list-style-type: square;
+    color: deeppink;
+}
+
+#unorderedlist2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: blue;
+}

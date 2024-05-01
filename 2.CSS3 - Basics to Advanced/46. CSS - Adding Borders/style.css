@@ -1,0 +1,10 @@
+#para2 {
+    border: red 5px;
+    border-style: dotted double dashed solid;
+    border-radius: 10px;
+}
+
+.para1 {
+    border: 2px solid blue;
+    border-radius: 20px;
+}

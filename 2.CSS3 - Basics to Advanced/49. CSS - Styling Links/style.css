@@ -1,0 +1,33 @@
+body {
+    margin: 0%;
+}
+
+#topbar {
+    background-color: lightblue;
+    padding: 40px 100px;
+
+}
+
+a {
+    display: inline-block;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 24px;
+}
+
+.menu-item:link {
+    color: blue;
+}
+
+.menu-item:visited {
+    color: black;
+}
+
+.menu-item:hover {
+    color: deeppink;
+}
+
+
+.menu-item:active {
+    color: aquamarine;
+}

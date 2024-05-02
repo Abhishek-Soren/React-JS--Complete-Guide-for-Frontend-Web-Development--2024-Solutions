@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-size: 49px;
+}
+
+.image-item {
+    height: 300px;
+}
+
+.image-wrapper {
+    display: inline;
+
+}
+
+.menu-item {
+    display: block;
+    visibility: hidden;
+}
+
+.menu-item-2 {
+    display: none;
+}
+
+
+#div1 {
+    outline: 1px solid black;
+    font-size: 24px;
+}
+
+#div2 {
+    outline: 1px solid black;
+    font-size: 24px;
+}

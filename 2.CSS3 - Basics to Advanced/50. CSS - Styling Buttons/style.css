@@ -1,0 +1,39 @@
+#btn-login {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+#btn-login:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+#btn-signup {
+    background-color: white;
+    border: solid 2px lightblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#btn-signup:hover {
+    background-color: lightblue;
+}
+
+#btn-disabled {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: not-allowed;
+    opacity: 60%;
+}

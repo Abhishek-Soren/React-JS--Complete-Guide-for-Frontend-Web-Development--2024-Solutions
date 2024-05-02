@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #5BBCFF;
+    height: 80px;
+    position: sticky;
+    top: 0%;
+    box-shadow: 0px 20px 100px 10px;
+}
+
+main {
+    padding: 15px 100px;
+}
+
+aside {
+    background-color: lightcoral;
+    height: 400px;
+    display: inline-block;
+    width: 30%;
+    margin-right: 1%;
+}
+
+section {
+    background-color: lightseagreen;
+    height: 400px;
+    display: inline-block;
+    width: 69%;
+}
+
+footer {
+    background-color: lightgreen;
+    height: 300px;
+}

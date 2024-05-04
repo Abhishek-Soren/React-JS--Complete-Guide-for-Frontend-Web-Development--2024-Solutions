@@ -1,0 +1,45 @@
+div {
+    height: 500px;
+    width: auto;
+    margin: 50px;
+    font-size: 24px;
+}
+
+#wrapper1 {
+    background-color: lightcoral;
+}
+
+#wrapper2 {
+    background-color: lightskyblue;
+}
+
+#wrapper3 {
+    background-color: lightgreen;
+}
+
+#wrapper4 {
+    background-color: lightseagreen;
+}
+
+img {
+    height: 200px;
+    padding: 20px;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
+
+#img3 {
+    float: none;
+    padding: 0%;
+}

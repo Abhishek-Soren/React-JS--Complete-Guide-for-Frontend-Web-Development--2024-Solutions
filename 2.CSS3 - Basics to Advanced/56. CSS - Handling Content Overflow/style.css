@@ -1,0 +1,36 @@
+div {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    font-size: 16px;
+}
+
+#wrapper1 {
+    background-color: lightcoral;
+    overflow: hidden;
+}
+
+#wrapper2 {
+    background-color: lightskyblue;
+    overflow: visible;
+}
+
+#wrapper3 {
+    background-color: lightgreen;
+    overflow: scroll;
+}
+
+#wrapper4 {
+    background-color: lightseagreen;
+    overflow: auto;
+}
+
+img {
+    height: 200px;
+    float: left;
+    padding: 10px;
+}
+
+body {
+    background-color: lightgray;
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+
+}
+
+div {
+    height: 500px;
+    width: 500px;
+    background-color: lightcoral;
+    padding: 50px;
+}
+
+#wrapper1 {
+    box-sizing: content-box;
+}
+
+#wrapper2 {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}

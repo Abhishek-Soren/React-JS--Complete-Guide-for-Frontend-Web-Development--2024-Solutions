@@ -1,0 +1,28 @@
+body {
+    padding: 50px;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px coral, -10px -10px 10px deeppink;
+}
+
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+button {
+    border: 0cap;
+    margin: 0%;
+    padding: 0%;
+
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
+button:hover {
+    box-shadow: 20px 20px 20px lightseagreen;
+
+}

@@ -23,3 +23,32 @@ img {
     padding-right: 15px;
     background-color: white;
 }
+
+#wrapper1>p::first-line {
+    background-color: lightcoral;
+}
+
+#wrapper1>article>p::first-letter {
+    font-size: 24px;
+    background-color: lightcoral;
+}
+
+#wrapper2 p {
+    background-color: lightgreen;
+}
+
+#wrapper2 p::before {
+    content: url(https://freepngimg.com/thumb/emoji/2-2-grinning-face-emoji-png-thumb.png);
+}
+
+#wrapper2 p::after {
+    content: "AAAAAA";
+}
+
+#wrapper3 ::selection {
+    background-color: lightseagreen;
+}
+
+::marker {
+    color: deeppink;
+}

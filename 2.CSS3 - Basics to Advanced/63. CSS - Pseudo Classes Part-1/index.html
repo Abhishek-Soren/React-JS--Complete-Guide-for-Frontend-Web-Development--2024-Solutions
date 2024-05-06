@@ -3,8 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS Psedo Classes 1</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form>
+      <input
+        type="text"
+        id="name"
+        name="username"
+        class="form-element"
+        required
+        placeholder="Full Name"
+      />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="form-element"
+        placeholder="potatochan@gmail.com"
+        disabled
+      />
+      <input type="number" id="age" name="age" class="form-element" required placeholder="Age" />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="form-element"
+        required
+        placeholder="Password"
+      />
+      <input
+        type="password"
+        id="password"
+        name="cnf-password"
+        class="form-element"
+        required
+        placeholder="Confirm Password"
+      />
+      <label for="tnc-checkbox"
+        ><input type="checkbox" id="tnc-checkbox" name="tnc-checkbox" required />
+        I agree to accept the terms and conditions.
+      </label>
+      <button>Register</button>
+    </form>
+  </body>
 </html>

@@ -1,0 +1,125 @@
+body {
+    margin: 0%;
+    font-family: Arial, sans-serif;
+}
+
+#nav-icon2 {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    font-size: 13px;
+
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 24px;
+}
+
+.navbar a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+#search-box {
+
+
+    position: relative;
+    border: none;
+    height: 50px;
+    width: 582px;
+}
+
+#search-box input {
+    border-radius: 25px;
+    font-size: 24px;
+    box-sizing: border-box;
+    width: 582px;
+    height: 50px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    padding-left: 20px;
+}
+
+#search-box button {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+#mic-button {
+    width: 100%;
+}
+
+#google-logo {
+    width: 400px;
+}
+
+#search-box input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#search-box input:focus {
+    outline: 1px solid #dfe1e5;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.content {
+    height: 720px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-wrapper, #button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#button-wrapper button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+    margin: 10px;
+}
+
+#button-wrapper button:hover {
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}

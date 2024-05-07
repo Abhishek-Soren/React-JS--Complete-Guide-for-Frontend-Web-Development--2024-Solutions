@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+div {
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+#div1 {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+#div2 {
+    background: linear-gradient(to top, #12c2e9, #c471ed, #f64f59);
+}
+
+#div3 {
+    background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
+}
+
+#div4 {
+    background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+}
+
+#div5 {
+    background: linear-gradient(0deg, #12c2e9, #c471ed, #f64f59);
+}
+
+#div6 {
+    background: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
+}
+
+#div7 {
+    background: linear-gradient(180deg, #12c2e9, #c471ed, #f64f59);
+}
+
+#div8 {
+    width: 200px;
+    background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+}
+
+#div9 {
+    background: repeating-linear-gradient(45deg, #12c2e9 10%, #c471ed 20%, #f64f59 30%);
+}
+
+#div10 {
+    background: repeating-linear-gradient(135deg, #12c2e9 0% 5%, #c471ed 5% 10%, #f64f59 10% 15%);
+}
+
+#div11 {
+    background: radial-gradient(#12c2e9, #c471ed, #f64f59);
+}
+
+#div12 {
+    background: radial-gradient(circle, #12c2e9, #c471ed, #f64f59);
+}
+
+#div13 {
+    width: 200px;
+    background: radial-gradient(circle, #12c2e9, #c471ed, #f64f59);
+}
+
+#div14 {
+    width: 200px;
+    background: radial-gradient(circle at left, #12c2e9, #c471ed, #f64f59);
+}
+
+#div15 {
+    width: 200px;
+    background: radial-gradient(circle at right, #12c2e9, #c471ed, #f64f59);
+}
+
+#div16 {
+    background: radial-gradient(circle closest-side, #12c2e9, #c471ed, #f64f59);
+}
+
+#div17 {
+    background: repeating-radial-gradient(#12c2e9 10%, #c471ed 20%, #f64f59 30%);
+}
+
+#div18 {
+    background: repeating-radial-gradient(circle, #12c2e9 10%, #c471ed 20%, #f64f59 30%);
+}
+
+#div19 {
+    background: repeating-radial-gradient(circle, #12c2e9 0% 5%, #c471ed 5% 10%, #f64f59 10% 15%);
+}
+
+#div20 {
+    background: repeating-radial-gradient(#12c2e9 0% 5%, #c471ed 5% 10%, #f64f59 10% 15%);
+}

@@ -3,8 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS Overflow-wrap</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="myDIV">
+      <div class="ex1">
+        <h1>overflow-wrap: normal;</h1>
+        This div contains a very long word:
+        thisisaveryveryveryveryvery3rrrrrrrrrrrrrrrrrverylongword. By default, the long word will
+        not break and wrap to the next line
+      </div>
+
+      <div class="ex2">
+        <h1>overflow-wrap: anywhere;</h1>
+        This div contains a very long word:
+        thisisaveryveryveryveryvery3QRRRRRRRRRRRRRRRRRRverylongword. By default, the long word will
+        not break and wrap to the next line
+      </div>
+
+      <div class="ex3">
+        <h1>overflow-wrap: break-word;</h1>
+        This div contains a very long word:
+        thisisaveryveryveryverr3qqqqqqqqqqqqqqqyveryverylongword. By default, the long word will not
+        break and wrap to the next line3R
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <h1>The white-space Property</h1>
+
+    <h2>white-space: nowrap:</h2>
+    <p class="a">
+      This is some text. This is some text. This is some text. This is some text. This is some text.
+      This is some text. This is some text. This is some text. This is some text. This is some text.
+      This is some text. This is some text.
+    </p>
+
+    <h2>white-space: normal:</h2>
+    <p class="b">
+      This is some text. This is some text. This is some text. This is some text. This is some text.
+      This is some text. This is some text. This is some text. This is some text. This is some text.
+      This is some text. This is some text.
+    </p>
+
+    <h2>white-space: pre:</h2>
+    <p class="c">
+      This is some text.                This is some text.                    This is some text. This is some text. This is some text.
+      This is some text. This is some text.                 This is some text. This is some text. This is some text.
+      This is some text. This is some text.
+    </p>
+  </body>
 </html>

@@ -1,0 +1,42 @@
+body {
+    background-color: #E7E9EB;
+}
+
+.ex1 {
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    overflow-wrap: normal;
+    display: inline-block;
+    margin: 100px;
+}
+
+.ex2 {
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    overflow-wrap: anywhere;
+    display: inline-block;
+    margin: 100px;
+}
+
+.ex3 {
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    overflow-wrap: break-word;
+    display: inline-block;
+    margin: 100px;
+}
+
+p.a {
+    white-space: nowrap;
+}
+
+p.b {
+    white-space: normal;
+}
+
+p.c {
+    white-space: pre;
+}

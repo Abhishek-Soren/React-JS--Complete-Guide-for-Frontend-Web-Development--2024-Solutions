@@ -1,7 +1,9 @@
 #head1 {
     font-size: 10vw;
+    /*vh = Viewport Width*/
 }
 
 #head2 {
     font-size: 10vh;
+    /*vh = Viewport Height*/
 }

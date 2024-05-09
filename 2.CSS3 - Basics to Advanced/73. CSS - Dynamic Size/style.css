@@ -1,0 +1,22 @@
+#wrapper {
+    font-size: 24px;
+    text-align: justify;
+    background-color: lightgray;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}

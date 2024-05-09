@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: "Teachers", sans-serif;
+    font-size: 24px;
+    height: 1500px;
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    padding: 50px 200px;
+    width: 100%;
+}
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: lightskyblue;
+    box-shadow: 0px 5px 5px #aaa;
+}
+
+#head1 {
+    float: left;
+    padding: 22px 25px;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+span {
+    float: right;
+    padding: 35px;
+}
+
+#head2 {
+    text-align: center;
+}
+
+
+section {
+
+    margin-right: 5%;
+    width: 70%;
+    background-color: lightcoral;
+    margin: 50px 0px;
+    float: left;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 5px 5px 5px #aaa;
+    border-radius: 10px;
+}
+
+aside {
+
+    float: right;
+    width: 25%;
+    vertical-align: top;
+    background-color: lightgreen;
+    margin: 50px 0px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 5px 5px 5px #aaa;
+    border-radius: 10px;
+}
+
+.aside-wrapper {
+
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    margin: 20px 0px;
+}
+
+.aside-wrapper:last-of-type {
+    border: none;
+    margin-top: 20px;
+}
+
+.aside-wrapper img {
+    width: 100%;
+    height: 250px;
+
+}
+
+@media screen and (max-width : 1500px) {
+
+    main {
+        padding: 20px 30px;
+        width: 100%;
+    }
+
+    section {
+
+        width: 100%;
+        margin: 50px 0px;
+        padding: 50px;
+    }
+
+    aside {
+
+        width: 100%;
+        vertical-align: top;
+        margin: 50px 0px;
+        padding: 20px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width : 800px) {
+    nav {
+        width: 100%;
+        height: 80px;
+        background-color: lightskyblue;
+        box-shadow: 0px 5px 5px #aaa;
+
+        text-align: center;
+    }
+
+    #head1 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        font-size: 35px;
+        margin: 0;
+
+    }
+
+    span {
+        padding: 0 20px;
+        float: none;
+    }
+}

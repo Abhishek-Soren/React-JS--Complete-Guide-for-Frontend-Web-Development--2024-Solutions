@@ -93,3 +93,63 @@ div {
 #div20 {
     background: repeating-radial-gradient(#12c2e9 0% 5%, #c471ed 5% 10%, #f64f59 10% 15%);
 }
+
+#div21 {
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#12c2e9, #c471ed, #f64f59);
+}
+
+#div22 {
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(#12c2e9 0deg 120deg, #c471ed 120deg 240deg, #f64f59 240deg 360deg);
+}
+
+#div23 {
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(from 90deg, #12c2e9, #c471ed, #f64f59);
+}
+
+#div24 {
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(from 90deg, #12c2e9 0deg 120deg, #c471ed 120deg 240deg, #f64f59 240deg 360deg);
+}
+
+#div25 {
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(at 70% 40%, #12c2e9, #c471ed, #f64f59);
+}
+
+#div26 {
+    width: 200px;
+    border-radius: 50%;
+    background: conic-gradient(at 70% 40%, #12c2e9 0deg 120deg, #c471ed 120deg 240deg, #f64f59 240deg 360deg);
+}
+
+#div27 {
+    width: 200px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(#12c2e9 0deg 20deg, #c471ed 20deg 40deg, #f64f59 40deg 60deg);
+}
+
+#div28 {
+    width: 200px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(#12c2e9 0% 5%, #c471ed 5% 10%, #f64f59 10% 20%);
+}
+
+#div29 {
+    width: 200px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(at 30% 70%, #12c2e9 0% 5%, #c471ed 5% 10%, #f64f59 10% 20%);
+}
+
+#div30 {
+    width: 200px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(#12c2e9 5%, #c471ed 10%, #f64f59 20%);
+}

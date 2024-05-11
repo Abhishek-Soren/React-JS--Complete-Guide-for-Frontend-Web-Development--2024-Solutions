@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+div div {
+    background-color: lightcoral;
+    text-align: center;
+    margin: 16px;
+    padding: 32px;
+    font-size: 32px;
+}
+
+body>div {
+    background-color: lightgray;
+    padding: 32px;
+    margin-bottom: 100px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: normal;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: stretch;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: flex-start;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: center;
+}
+
+#container5 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: flex-end;
+}
+
+#container6 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: normal;
+}
+
+#container7 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: stretch;
+}
+
+#container8 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: flex-start;
+}
+
+#container9 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+}
+
+#container10 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: flex-end;
+}
+
+#container11 {
+    display: flex;
+    width: 100vw;
+
+    height: 80vh;
+}
+
+#container12 {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#container13 {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#container14 {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container15 {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#container16 {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+#container17 {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}

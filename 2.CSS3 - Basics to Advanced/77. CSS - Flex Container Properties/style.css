@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+div div {
+    background-color: lightcoral;
+    text-align: center;
+    margin: 16px;
+    padding: 32px;
+    font-size: 32px;
+}
+
+body>div {
+    background-color: lightgray;
+    padding: 32px;
+    margin-bottom: 100px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#container5 {
+    display: flex;
+    justify-content: center;
+}
+
+#container6 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container7 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#container8 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container10 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container11 {
+    display: flex;
+    width: 100vw;
+}
+
+#container12 {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+#container13 {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap-reverse;
+}
+
+#container14 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    margin-bottom: 2000px;
+}
+
+#container15 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#container16 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+#container17 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container18 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#container19 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#container20 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container21 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container22 {
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

@@ -3,8 +3,280 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS Flex Container 1</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>flex-direction: row; <mark>default value</mark></h1>
+    <div id="container1">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>flex-direction: row-reverse;</h1>
+    <div id="container2">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>flex-direction: column;</h1>
+    <div id="container3">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>flex-direction: column-reverse;</h1>
+    <div id="container4">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: center;</h1>
+    <div id="container5">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: flex-end;</h1>
+    <div id="container6">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: flex-start;</h1>
+    <div id="container7">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: space-around;</h1>
+    <div id="container8">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: space-between;</h1>
+    <div id="container9">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: space-evenly;</h1>
+    <div id="container10">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>Overflowing Elements</h1>
+    <div id="container11">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+      <div id="div5">Div Box 5</div>
+      <div id="div6">Div Box 6</div>
+      <div id="div7">Div Box 7</div>
+      <div id="div8">Div Box 8</div>
+      <div id="div9">Div Box 9</div>
+      <div id="div10">Div Box 10</div>
+      <div id="div11">Div Box 11</div>
+      <div id="div12">Div Box 12</div>
+      <div id="div13">Div Box 13</div>
+      <div id="div14">Div Box 14</div>
+      <div id="div15">Div Box 15</div>
+      <div id="div16">Div Box 16</div>
+      <div id="div17">Div Box 17</div>
+      <div id="div18">Div Box 18</div>
+      <div id="div19">Div Box 19</div>
+      <div id="div20">Div Box 20</div>
+    </div>
+
+    <h1><mark>Does not overflow</mark> flex-wrap: wrap;</h1>
+    <div id="container12">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+      <div id="div5">Div Box 5</div>
+      <div id="div6">Div Box 6</div>
+      <div id="div7">Div Box 7</div>
+      <div id="div8">Div Box 8</div>
+      <div id="div9">Div Box 9</div>
+      <div id="div10">Div Box 10</div>
+      <div id="div11">Div Box 11</div>
+      <div id="div12">Div Box 12</div>
+      <div id="div13">Div Box 13</div>
+      <div id="div14">Div Box 14</div>
+      <div id="div15">Div Box 15</div>
+      <div id="div16">Div Box 16</div>
+      <div id="div17">Div Box 17</div>
+      <div id="div18">Div Box 18</div>
+      <div id="div19">Div Box 19</div>
+      <div id="div20">Div Box 20</div>
+    </div>
+
+    <h1>flex-wrap: wrap-reverse;</h1>
+    <div id="container13">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+      <div id="div5">Div Box 5</div>
+      <div id="div6">Div Box 6</div>
+      <div id="div7">Div Box 7</div>
+      <div id="div8">Div Box 8</div>
+      <div id="div9">Div Box 9</div>
+      <div id="div10">Div Box 10</div>
+      <div id="div11">Div Box 11</div>
+      <div id="div12">Div Box 12</div>
+      <div id="div13">Div Box 13</div>
+      <div id="div14">Div Box 14</div>
+      <div id="div15">Div Box 15</div>
+      <div id="div16">Div Box 16</div>
+      <div id="div17">Div Box 17</div>
+      <div id="div18">Div Box 18</div>
+      <div id="div19">Div Box 19</div>
+      <div id="div20">Div Box 20</div>
+    </div>
+
+    <h1>Overflowing Elements</h1>
+    <div id="container14">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+      <div id="div5">Div Box 5</div>
+      <div id="div6">Div Box 6</div>
+      <div id="div7">Div Box 7</div>
+      <div id="div8">Div Box 8</div>
+      <div id="div9">Div Box 9</div>
+      <div id="div10">Div Box 10</div>
+      <div id="div11">Div Box 11</div>
+      <div id="div12">Div Box 12</div>
+      <div id="div13">Div Box 13</div>
+      <div id="div14">Div Box 14</div>
+      <div id="div15">Div Box 15</div>
+      <div id="div16">Div Box 16</div>
+      <div id="div17">Div Box 17</div>
+      <div id="div18">Div Box 18</div>
+      <div id="div19">Div Box 19</div>
+      <div id="div20">Div Box 20</div>
+    </div>
+
+    <h1><mark>Does not overflow</mark> flex-wrap: wrap;</h1>
+    <div id="container15">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+      <div id="div5">Div Box 5</div>
+      <div id="div6">Div Box 6</div>
+      <div id="div7">Div Box 7</div>
+      <div id="div8">Div Box 8</div>
+      <div id="div9">Div Box 9</div>
+      <div id="div10">Div Box 10</div>
+      <div id="div11">Div Box 11</div>
+      <div id="div12">Div Box 12</div>
+      <div id="div13">Div Box 13</div>
+      <div id="div14">Div Box 14</div>
+      <div id="div15">Div Box 15</div>
+      <div id="div16">Div Box 16</div>
+      <div id="div17">Div Box 17</div>
+      <div id="div18">Div Box 18</div>
+      <div id="div19">Div Box 19</div>
+      <div id="div20">Div Box 20</div>
+    </div>
+
+    <h1>flex-wrap: wrap-reverse;</h1>
+    <div id="container16">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+      <div id="div5">Div Box 5</div>
+      <div id="div6">Div Box 6</div>
+      <div id="div7">Div Box 7</div>
+      <div id="div8">Div Box 8</div>
+      <div id="div9">Div Box 9</div>
+      <div id="div10">Div Box 10</div>
+      <div id="div11">Div Box 11</div>
+      <div id="div12">Div Box 12</div>
+      <div id="div13">Div Box 13</div>
+      <div id="div14">Div Box 14</div>
+      <div id="div15">Div Box 15</div>
+      <div id="div16">Div Box 16</div>
+      <div id="div17">Div Box 17</div>
+      <div id="div18">Div Box 18</div>
+      <div id="div19">Div Box 19</div>
+      <div id="div20">Div Box 20</div>
+    </div>
+
+    <h1>justify-content: center;</h1>
+    <div id="container17">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: flex-start;</h1>
+    <div id="container18">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: flex-end;</h1>
+    <div id="container19">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: space-around;</h1>
+    <div id="container20">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: space-between;</h1>
+    <div id="container21">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+
+    <h1>justify-content: space-evenly;</h1>
+    <div id="container22">
+      <div id="div1">Div Box 1</div>
+      <div id="div2">Div Box 2</div>
+      <div id="div3">Div Box 3</div>
+      <div id="div4">Div Box 4</div>
+    </div>
+  </body>
 </html>

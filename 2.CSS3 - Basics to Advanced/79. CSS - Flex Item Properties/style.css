@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+div div {
+    background-color: lightcoral;
+    text-align: center;
+    margin: 16px;
+    padding: 32px;
+    font-size: 32px;
+}
+
+body>div {
+    background-color: lightgray;
+    padding: 32px;
+    margin-bottom: 100px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+}

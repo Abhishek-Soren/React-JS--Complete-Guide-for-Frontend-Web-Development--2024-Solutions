@@ -28,4 +28,200 @@ body>div {
 #container1 {
     display: flex;
     flex-direction: row;
+
+}
+
+#container1 div {
+    flex-grow: 1;
+}
+
+#container1 div:nth-child(3) {
+    background-color: bisque;
+}
+
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container2 div {
+    flex-grow: 1;
+}
+
+#container2 div:nth-child(3) {
+    background-color: bisque;
+    flex-grow: 2;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container3 div {
+    flex-grow: 1;
+}
+
+#container3 div:nth-child(3) {
+    background-color: bisque;
+    flex-grow: 0;
+    flex-shrink: 2;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container4 div {
+    flex-basis: 300px;
+}
+
+#container4 div:nth-child(3) {
+    background-color: bisque;
+}
+
+#container5 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container5 div {
+    flex-basis: 300px;
+}
+
+#container5 div:nth-child(3) {
+    background-color: bisque;
+    order: -1;
+}
+
+#container6 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container6 div {
+    flex-basis: 300px;
+}
+
+#container6 div:nth-child(3) {
+    background-color: bisque;
+    order: 1;
+}
+
+#container7 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container7 div {
+    flex-basis: 300px;
+}
+
+#container7 div:nth-child(even) {
+    background-color: bisque;
+    order: 1;
+}
+
+#container8 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container8 div {
+    flex-basis: 300px;
+}
+
+#container8 div:nth-child(odd) {
+    background-color: bisque;
+}
+
+#container9 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#container9 div {
+    flex-basis: 300px;
+}
+
+#container9 div:nth-child(even) {
+    background-color: bisque;
+
+}
+
+#container10 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+#container10 div {
+    flex-basis: 300px;
+}
+
+#container10 div:nth-child(even) {
+    background-color: bisque;
+    align-self: center;
+
+}
+
+
+#container11 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+#container11 div {
+    flex-basis: 300px;
+}
+
+#container11 div:nth-child(odd) {
+    background-color: bisque;
+    align-self: flex-start;
+
+}
+
+#container12 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+#container12 div {
+    flex-basis: 300px;
+}
+
+#container12 div:nth-child(odd) {
+    align-self: flex-start;
+
+}
+
+#container12 div:nth-child(even) {
+    background-color: bisque;
+    align-self: center;
+
+}
+
+#container13 {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+#container13 div {
+    flex-basis: 300px;
+
+    align-self: flex-end;
+
 }

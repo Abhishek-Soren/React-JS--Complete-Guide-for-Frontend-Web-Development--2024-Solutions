@@ -1,0 +1,28 @@
+body {
+    margin: 0%;
+    background: url(./Assets/5348291_33136.svg) no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 300px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fly 4s ease-in forwards;
+}
+
+@keyframes fly {
+    0% {
+        bottom: 0%;
+    }
+
+    100% {
+        bottom: 100%;
+    }
+}

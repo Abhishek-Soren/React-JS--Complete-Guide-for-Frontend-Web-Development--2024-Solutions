@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 10px 0px;
+}
+
+div {
+    height: 400px;
+    width: 400px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    margin: 48px;
+
+
+    transition-property: background-color, height, width, transform;
+    transition-duration: 3s;
+
+}
+
+div:hover {
+    background-color: deeppink;
+    transform: rotate(360deg);
+    height: 700px;
+    width: 700px;
+}

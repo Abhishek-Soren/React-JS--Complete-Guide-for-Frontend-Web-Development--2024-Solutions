@@ -1,0 +1,165 @@
+body {
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    float: left;
+    background-color: lightseagreen;
+    width: 500px;
+    height: 500px;
+    padding: 100px;
+    margin: 50px;
+    position: relative;
+}
+
+#container>div {
+    text-transform: uppercase;
+    font-size: 44px;
+    width: 300px;
+    height: 300px;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    color: black;
+    z-index: 1;
+    top: 0;
+    font-size: 18px;
+    left: 15px;
+}
+
+#div1 {
+    transform: none;
+}
+
+#div2 {
+    transform: translateX(100px);
+}
+
+#div3 {
+    transform: translateX(-100px);
+}
+
+#div4 {
+    transform: translateY(100px);
+}
+
+#div5 {
+    transform: translateY(-100px);
+}
+
+#div6 {
+    transform: translate(100px, 100px);
+}
+
+#div7 {
+    transform: translate(-100px, -100px);
+}
+
+#div8 {
+    transform: translateZ(100px);
+}
+
+#div9 {
+    transform: translate(-100px, -100px, 100px);
+}
+
+#div10 {
+    transform: scaleX(2);
+}
+
+#div11 {
+    transform: scaleX(0.5);
+}
+
+#div12 {
+    transform: scaleY(2);
+}
+
+#div13 {
+    transform: scaleY(0.5);
+}
+
+#div14 {
+    transform: scale(2, 0.8);
+}
+
+#div15 {
+    transform: scaleZ(2);
+}
+
+#div16 {
+    transform: rotateX(60deg);
+}
+
+#div17 {
+    transform: rotateX(180deg);
+}
+
+#div18 {
+    transform: rotateX(-60deg);
+}
+
+#div19 {
+    transform: rotateY(60deg);
+}
+
+#div20 {
+    transform: rotateY(180deg);
+}
+
+#div21 {
+    transform: rotateY(-60deg);
+}
+
+#div22 {
+    transform: rotateZ(60deg);
+}
+
+#div23 {
+    transform: rotateZ(180deg);
+}
+
+#div24 {
+    transform: rotateZ(-60deg);
+}
+
+#div25 {
+    transform: skewX(25deg);
+}
+
+#div26 {
+    transform: skewX(-25deg);
+
+}
+
+#div27 {
+    transform: skewY(25deg);
+
+}
+
+#div28 {
+    transform: skewY(-25deg);
+
+}
+
+#div29 {
+    transform: skew(20deg, 20deg);
+}
+
+#div30 {
+    transform: skew(20deg, -20deg);
+}

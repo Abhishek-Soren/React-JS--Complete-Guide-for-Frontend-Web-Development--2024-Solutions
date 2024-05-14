@@ -1,0 +1,47 @@
+body {
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    
+    transition: transform 0.2s ease-in;
+}
+
+h1 {
+    text-align: center;
+}
+
+div div {
+    max-height: 350px;
+    max-width: 350px;
+    line-height: 0;
+}
+
+#grid-container {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+div img:hover {
+    transform: scale(1.05, 1.05);
+    border: 1px solid black;
+}
+
+@media screen and (max-width : 900px){
+    #grid-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width : 600px){
+    #grid-container {
+        grid-template-columns: auto auto;
+    }
+}

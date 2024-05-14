@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#menu-item {
+    margin: 16px;
+}
+
+#dropdown-items1 a, #dropdown-items2 a {
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid rgb(170, 210, 54);
+}
+
+#dropdown-items1 a:last-child, #dropdown-items2 a:last-child {
+    border: none;
+}
+
+#dropdown-items1, #dropdown-items2 {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px #aaa;
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    right: 440px;
+
+    display: none;
+}
+
+#dropdown-items2 {
+    right: 220px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    text-decoration: underline;
+}
+
+#dropdown1:hover #dropdown-items1 {
+    display: block;
+}
+
+#dropdown1:active #dropdown-items1 {
+    display: block;
+}
+
+#dropdown2:hover #dropdown-items2 {
+    display: block;
+}
+
+#dropdown2:active #dropdown-items2 {
+    display: block;
+}
+
+#part1>img {
+    height: 40px;
+    width: 40px;
+}
+
+#part1, #part2 {
+    margin: 0px 16px;
+}
+
+#menu-item>button {
+
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+}
+
+#menu-item>button:hover {
+    background-color: lightseagreen;
+}
+
+#section1>#heading {
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    margin: 24px;
+}
+
+#section1>#description {
+    font-size: 14px;
+    letter-spacing: 0.5;
+    font-weight: 400;
+    color: #8b8b99;
+    margin: 24px;
+}
+
+#section1 {
+    height: 100vh;
+    background-image: url(./Assets/landing-background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section9>footer {
+    font-size: 14px;
+    height: 80px;
+    background-color: #232323;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+@media (max-width : 900px) {
+    .hide {
+        display: none;
+    }
+}
+
+@media (max-width : 600px) {}

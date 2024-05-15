@@ -112,11 +112,12 @@ button:hover {
 
 
 #section1>#heading {
-    font-size: 44px;
+    font-size: 60px;
     font-weight: 600;
     letter-spacing: 8.8px;
     line-height: 1.2;
     margin: 24px;
+    margin-top: 80px;
 }
 
 #section1>#description {
@@ -566,6 +567,10 @@ form {
     #section8>#right-part {
         width: 100%;
         padding: 80px;
+    }
+
+    #section1>#heading {
+        font-size: 44px;
     }
 }
 

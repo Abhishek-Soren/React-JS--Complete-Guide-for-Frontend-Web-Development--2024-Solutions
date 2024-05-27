@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS Implicit Type Coercison</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -14,7 +14,33 @@
 
     <pre>
       <code>
-        
+        console.clear();
+
+        if('Rocket' * 10) {
+          console.log('True')
+        } else {
+          console.log('False')
+        }
+
+        console.log(true + false)
+
+        console.log(12 / "6")
+
+        console.log("number" + 15 + 3)
+
+        console.log(15 + 3 + "number")
+
+        console.log(1 > null)
+
+        console.log("foo" + + "bar")
+
+        console.log('true' == true)
+
+        console.log(false == 'false')
+
+        console.log(null == '')
+
+        console.log(!!"false" == !!"true")
       </code>
     </pre>
 

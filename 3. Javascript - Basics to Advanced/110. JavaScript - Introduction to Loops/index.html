@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS Introduction to Loops</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -12,9 +12,18 @@
     <h2>Open Console to see the output for the JavaScript code.</h2>
     <h2>The code in the external JS file is as follows.</h2>
 
+    <p id="demo"></p>
+
     <pre>
       <code>
-        
+        let str = "I will do my Homework a 100 times.";
+        let finalStr = "";
+        for (let i = 1; i &lt;= 100; i++) {
+          finalStr += i + ". " + str + "&lt;br&gt;";
+        }
+
+        document.getElementById("demo").innerHTML = finalStr;
+
       </code>
     </pre>
 

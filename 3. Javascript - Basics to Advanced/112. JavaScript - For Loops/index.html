@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS For Loop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -14,7 +14,185 @@
 
     <pre>
       <code>
-        
+        console.clear()
+
+        var mList = [1, 2, 3, 4, 5]
+        // var pos;
+        // for(pos = 0; pos < mList.length; pos++) {
+        // 	console.log('Position => ' + pos + ' Value => ' + mList[pos])
+        // }
+
+
+        // Break Keyword
+
+        // var pos;
+        // for(pos = 0; pos < mList.length; pos++) {
+        // 	if(pos >= 3) break
+        // 	console.log('Position => ' + pos + ' Value => ' + mList[pos])
+        // }
+
+        // Continue Keyword
+
+        var pos;
+        for(pos = 0; pos < mList.length; pos++) {
+          if(pos % 2 === 0) continue
+          console.log('Position => ' + pos + ' Value => ' + mList[pos])
+        }
+
+        // Q1. Write a JavaScript program to encode a message in the language which hackers use to communicate.
+
+        // Example :
+        //  "javascript is cool" as "j4v45cr1pt 15 c00l"
+
+        // Instructions :
+        // The program should replace all 'a' with '4', 'e' with '3', 'i' with '1', 'o' with '0' and 's' with '5'.
+
+
+
+        // Approach1
+        // let str1 =
+        //   "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.";
+
+        // str1 = str1.replaceAll("a", "4");
+        // str1 = str1.replaceAll("e", "3");
+        // str1 = str1.replaceAll("i", "1");
+        // str1 = str1.replaceAll("o", "0");
+        // str1 = str1.replaceAll("s", "5");
+
+        // console.log(str1);
+
+
+        // Approach2
+        let str1 =
+          "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.";
+        let encoddedMsg = "";
+
+        for (let i = 0; i < str1.length; i++) {
+          switch (str1[i]) {
+            case "a":
+              encoddedMsg += "4";
+              break;
+            case "e":
+              encoddedMsg += "3";
+              break;
+            case "i":
+              encoddedMsg += "1";
+              break;
+            case "o":
+              encoddedMsg += "0";
+              break;
+            case "s":
+              encoddedMsg += "5";
+              break;
+            default:
+              encoddedMsg += str1[i];
+              break;
+          }
+        }
+
+        console.log(encoddedMsg);
+
+
+        // Q2. Write a JavaScript program to find how many vowels are there in the sentence.
+
+        let str2 =
+          "Good, better, best. Never let it rest. 'Til your good is better and your better is best.";
+
+        str2 = str2.toLowerCase();
+
+        let numOfVowels = 0;
+
+        for (let i = 0; i < str2.length; i++) {
+          switch (str2[i]) {
+            case "a":
+            case "e":
+            case "i":
+            case "o":
+            case "u":
+              numOfVowels++;
+          }
+        }
+
+        console.log(numOfVowels);
+
+
+
+        //Q3. Write a JavaScript program which accepts a string as input and swap the case of each character.
+
+        //  Hint: You can create two string variables of all alphabets in lowercase(a-z) and in upper case(A-Z). 
+
+        //Approach 1
+
+        let str3 = "The Quick Brown Fox.";
+        let finalStr3 = "";
+        for (let i = 0; i < str3.length; i++) {
+          let charCode = str3.charCodeAt(i);
+          if (charCode >= 65 && charCode <= 90) {
+            charCode += 32;
+          } else if (charCode >= 97 && charCode <= 122) {
+            charCode -= 32;
+          }
+          finalStr3 += String.fromCharCode(charCode);
+        }
+
+        console.log(finalStr3);
+
+
+
+        //Approach 2
+
+        function swapCase(str) {
+          let result = '';
+          for (let i = 0; i < str.length; i++) {
+            let char = str[i];
+            if (char >= 'a' && char <= 'z') {
+              result += char.toUpperCase(); // Convert lowercase to uppercase
+            } else if (char >= 'A' && char <= 'Z') {
+              result += char.toLowerCase(); // Convert uppercase to lowercase
+            } else {
+              result += char; // Keep non-alphabetic characters unchanged
+            }
+          }
+          return result;
+        }
+
+        let inputString = "The Quick Brown Fox.";
+        let swappedString = swapCase(inputString);
+
+        console.log(swappedString); 
+
+
+
+        // Q4. Write a JavaScript for loop that will iterate from 0 to 10. For each iteration, it will check if the current number is odd or even, and display a message to the screen.
+
+        for (let i = 0; i <= 10; i++) {
+          if (i % 2 == 0) console.log(i + " is even");
+          else console.log(i + " is odd");
+        }
+
+
+        // Q5. Write a JavaScript function that will reverse all the words which are of odd length. The even length words are not changed.
+
+        let str5 = "There is exactly one space between each word and no punctuation is used.";
+        let arr5Temp = [];
+        console.log(str5);
+
+        str5 = str5.replaceAll(".", "");
+        let arr5 = str5.split(" ");
+        console.log(arr5);
+
+        for (let item of arr5) {
+          if (item.length % 2 !== 0) {
+            arr5Temp.push(item.split("").reverse().join(""));
+          } else {
+            arr5Temp.push(item);
+          }
+        }
+
+        let finalStr5 = arr5Temp.join(" ") + ".";
+        console.log(finalStr5);
+
+
       </code>
     </pre>
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS DOM</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -12,9 +12,31 @@
     <h2>Open Console to see the output for the JavaScript code.</h2>
     <h2>The code in the external JS file is as follows.</h2>
 
+    <h1>DOM : Document Object Model</h1>
+    <p>
+      When a web page is loaded, the browser creates a Document Object Model of the page. <br />
+
+      The HTML DOM model is constructed as a tree of Objects.
+    </p>
+
+    <p>With the object model, JavaScript gets all the power it needs to create dynamic HTML:</p>
+
+    <ul>
+      <li>JavaScript can change all the HTML elements in the page</li>
+      <li>JavaScript can change all the HTML attributes in the page</li>
+      <li>JavaScript can change all the CSS styles in the page</li>
+      <li>JavaScript can remove existing HTML elements and attributes</li>
+      <li>JavaScript can add new HTML elements and attributes</li>
+      <li>JavaScript can react to all existing HTML events in the page</li>
+      <li>JavaScript can create new HTML events in the page</li>
+    </ul>
+
+    <div id="demo"></div>
+
     <pre>
       <code>
-        
+        document.getElementById("demo").innerHTML = "&lt;h1>" + "lorem ipsum"+"&lt;/h1>";
+
       </code>
     </pre>
 

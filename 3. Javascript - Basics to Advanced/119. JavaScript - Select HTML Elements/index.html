@@ -3,19 +3,49 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS HTML DOM Elements</title>
+    <title>JS Select HTML Elements</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>JS HTML DOM Elements</h1>
-    <h1><mark>Let's Learn JavaScript's in built String Functions</mark></h1>
+    <h1 id="heading">JS Select HTML Elements</h1>
+
+    <h1><mark>Let's Learn JavaScript.</mark></h1>
     <h2>Open Console to see the output for the JavaScript code.</h2>
     <h2>The code in the external JS file is as follows.</h2>
 
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid facilis eligendi rem est,
+      deserunt nam quod neque maxime dolore debitis optio itaque doloremque, exercitationem alias
+      ducimus. Consequuntur dolorem quo excepturi.
+    </p>
+
+    <p id="demo1"></p>
+    <p class="demo2"></p>
+    <br />
+    <span></span>
+    <span></span>
+    <span></span>
+
     <pre>
       <code>
-        
+        document.getElementById(
+          "demo1"
+        ).innerHTML = `The text is from the external JavaScript file using ' document.getElementById("demo1") '.`;
+
+        console.log(document.getElementById("heading"));
+
+        let elements = document.getElementsByClassName("demo2");
+        for (let i = 0; i &lt; elements.length; i++) {
+          elements[
+            i
+          ].innerHTML = `The text is from the external JavaScript file using 'document.getElementsByClassName("demo2")'.`;
+        }
+
+        console.log(document.getElementsByClassName("text"));
+
+        console.log(document.getElementsByTagName("span"));
+
       </code>
     </pre>
 

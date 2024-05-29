@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS Variable Hoisting</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -14,7 +14,15 @@
 
     <pre>
       <code>
-        
+        myFunction();
+        console.log(x);
+
+        var x = 10;
+
+        function myFunction() {
+          console.log("Baka janai no?!");
+        }
+
       </code>
     </pre>
 

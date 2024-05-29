@@ -3,14 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS Query Selectors</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <h1 id="heading">JS Query Selectors</h1>
+    <h1>Let's Learn JavaScript.</h1>
+    <h2>Open Console to see the output for the JavaScript code.</h2>
+    <h2>The code in the external JS file is as follows.</h2>
+
+    <h2>getElementById is much faster than querySelector or querySelectorAll</h2>
+
+    <h3>we can use the latter when the css selector is complex and elements are much nested</h3>
     <pre>
       <code>
-        
+        document.querySelector("h1").style.color = "blue";
+        document.querySelector("#heading").style.backgroundColor = "lightcoral";
+
+        console.log(document.querySelectorAll("h2"));
+
       </code>
     </pre>
 

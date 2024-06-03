@@ -2,3 +2,22 @@ code {
   font-size: 18px;
   color: lightseagreen;
 }
+
+#bg {
+  height: 100vh;
+  width: 100vh;
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(45deg, #051937, #A8EB12); */
+  /* background-image: linear-gradient(45deg, #845EC2, #FF6F91); */
+}
+
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 44px;
+}

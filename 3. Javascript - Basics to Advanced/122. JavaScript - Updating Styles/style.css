@@ -1,0 +1,24 @@
+code {
+  font-size: 18px;
+  color: lightseagreen;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+
+}
+
+h1 {
+  box-sizing: border-box;
+  color: rgb(179, 179, 179);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  margin: 0%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}

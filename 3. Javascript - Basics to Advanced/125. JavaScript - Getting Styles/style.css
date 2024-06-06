@@ -1,0 +1,39 @@
+body {
+  margin: 0%;
+  background-color: lightblue;
+}
+
+
+button {
+  width: 200px;
+  height: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin: 24px;
+  outline: none;
+  border: none;
+  transition: background-color 300ms;
+}
+
+button:hover {
+  background-color: lightseagreen;
+}
+
+
+#wrapper {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 25%);
+}
+
+h1 {
+  margin: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

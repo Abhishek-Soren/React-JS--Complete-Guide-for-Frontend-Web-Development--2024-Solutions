@@ -6,3 +6,64 @@ body {
   margin: 0%;
   background-color: lightblue;
 }
+
+#wrapper {
+  height: 100vh;
+  max-width: 700px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  height: auto;
+  width: 200px;
+  background-color: lightseagreen;
+  padding: 20px;
+  text-align: center;
+}
+
+.head {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.text {
+  background-color: lightpink;
+  padding: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+}
+
+.text>p {
+  margin: 10px auto;
+}
+
+#btn {
+  width: 200px;
+  height: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin: 24px;
+  outline: none;
+  border: none;
+  transition: background-color 300ms;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-62%);
+}
+
+button:hover {
+  background-color: deeppink;
+  color: white;
+}
+
+p {
+  background-color: rgba(0, 0, 0, 0.1);
+}

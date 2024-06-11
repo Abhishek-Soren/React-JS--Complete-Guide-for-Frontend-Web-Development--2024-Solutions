@@ -3,11 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS Creating HTML Elements 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div id="btn-wrapper">
+      <button class="btn" id="btn-add">Add List Item</button>
+      <button class="btn" id="btn-remove">Remove List Item</button>
+      <button class="btn" id="btn-before">Insert Before First Item</button>
+    </div>
+    <form id="add-todo-list">
+      <input type="text" id="text" placeholder="Add Text" />
+      <button class="btn" id="btn-text" type="submit">Add to list</button>
+    </form>
+    <ul id="list">
+      <li id="item1">List Item 1</li>
+      <li id="item2">List Item 2</li>
+    </ul>
     <script type="text/javascript" src="./script.js" async defer></script>
   </body>
 </html>

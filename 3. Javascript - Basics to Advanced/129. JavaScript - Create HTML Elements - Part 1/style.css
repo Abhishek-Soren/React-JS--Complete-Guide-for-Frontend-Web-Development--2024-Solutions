@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+
+}
+
+#btn-wrapper, #add-todo-list {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+/* #btn-add {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#btn-remove {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#btn-before {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.btn {
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
+  margin: 16px;
+  font-size: 24px;
+  transition: background-color 200ms;
+}
+
+#text {
+  width: 632.5px;
+  height: 60px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
+  margin: 16px;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+#btn-add:hover {
+  background-color: lightseagreen;
+}
+
+#btn-remove:hover {
+  background-color: deeppink;
+}
+
+#btn-before:hover {
+  background-color: lightcoral;
+}
+
+#btn-text:hover {
+  background-color: cornflowerblue;
+}
+
+#list {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+li {
+  list-style-type: none;
+  background-color: white;
+  width: 500px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}

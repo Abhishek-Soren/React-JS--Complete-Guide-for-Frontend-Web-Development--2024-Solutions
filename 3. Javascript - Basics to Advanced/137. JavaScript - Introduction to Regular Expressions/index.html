@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1><mark>Let's Learn JavaScript's in built String Functions</mark></h1>
+    <h1><mark>Let's Learn JavaScript's Regular Expressions</mark></h1>
     <h2>Open Console to see the output for the JavaScript code.</h2>
     <h2>The code in the external JS file is as follows.</h2>
+
+    <pre><code>
+        function myFunction() {
+          let str1 = "POTAATO is the best. NO one can deny THAT";
+          let regex4 = /[A-Z]/g;
+          let match4 = str1.match(regex4);
+        
+          console.log("Found " + match4.length + " matches: " + match4);
+        }
+        
+        myFunction();
+    </code></pre>
 
     <script type="text/javascript" src="./script.js" async defer></script>
   </body>

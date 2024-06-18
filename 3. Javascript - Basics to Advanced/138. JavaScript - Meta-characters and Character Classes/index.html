@@ -12,6 +12,51 @@
     <h2>Open Console to see the output for the JavaScript code.</h2>
     <h2>The code in the external JS file is as follows.</h2>
 
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+
+    <pre><code>
+      let text = "THIS This this";
+
+      let result1 = text.match(/[THIS]/g);
+      let result2 = text.match(/[THIS]/gi);
+
+      document.getElementById("demo1").innerHTML = result1 + "&lt;br>" + result2;
+
+      text = "Is this all there is?";
+      let pattern = /[^h]/g;
+      let result = text.match(pattern);
+
+      document.getElementById("demo2").innerHTML = result;
+
+      text = "123456789";
+      pattern = /[1-4]/g;
+      result = text.match(pattern);
+
+      document.getElementById("demo3").innerHTML = result;
+
+      text = "123456789";
+      pattern = /[^1-4]/g;
+      result = text.match(pattern);
+
+      document.getElementById("demo4").innerHTML = result;
+
+
+      text = "re, green, green, red, green, gren, gr, blue, yellow";
+      pattern = /(red|green)/g;
+      result = text.match(pattern);
+
+      document.getElementById("demo5").innerHTML = result;
+    </code></pre>
+
     <script type="text/javascript" src="./script.js" async defer></script>
   </body>
 </html>

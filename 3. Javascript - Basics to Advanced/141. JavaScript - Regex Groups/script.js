@@ -1,0 +1,100 @@
+let str1 = "0123456789";
+let str2 = "0012345678999";
+let str3 = "01234567";
+
+let pattern1 = /[\d]/g;
+let pattern2 = /[\d]+/g;
+let pattern3 = /[\d]{10}/g;
+let pattern4 = /^[\d]{10}$/g;
+
+console.log("Pattern 1 : " + pattern1);
+
+console.log(str1.match(pattern1));
+console.log(str2.match(pattern1));
+console.log(str3.match(pattern1));
+
+console.log("Pattern 2 : " + pattern2);
+
+console.log(str1.match(pattern2));
+console.log(str2.match(pattern2));
+console.log(str3.match(pattern2));
+
+console.log("Pattern 3 : " + pattern3);
+
+console.log(str1.match(pattern3));
+console.log(str2.match(pattern3));
+console.log(str3.match(pattern3));
+
+console.log("Pattern 4 : " + pattern4);
+
+console.log(str1.match(pattern4));
+console.log(str2.match(pattern4));
+console.log(str3.match(pattern4));
+
+let str4 = "910123456789";
+let str5 = "90123456789";
+let str6 = "0123456789";
+let str7 = "10123456789";
+let str8 = "+910123456789";
+
+let pattern5 = /^9?1?[\d]{10}$/g;
+let pattern6 = /^(91)?[\d]{10}$/g;
+let pattern7 = /^(\+91)?[\d]{10}$/g;
+
+console.log("Pattern 5 : " + pattern5);
+
+console.log(str4.match(pattern5));
+console.log(str5.match(pattern5));
+console.log(str6.match(pattern5));
+console.log(str7.match(pattern5));
+console.log(str8.match(pattern5));
+
+console.log("Pattern 6 : " + pattern6);
+
+console.log(str4.match(pattern6));
+console.log(str5.match(pattern6));
+console.log(str6.match(pattern6));
+console.log(str7.match(pattern6));
+console.log(str8.match(pattern6));
+
+console.log("Pattern 7 : " + pattern7);
+
+console.log(str4.match(pattern7));
+console.log(str5.match(pattern7));
+console.log(str6.match(pattern7));
+console.log(str7.match(pattern7));
+console.log(str8.match(pattern7));
+
+let str9 = "www.google.com";
+let str10 = "www.google.co";
+let str11 = "aawww.youtube.com";
+let str12 = "www.youtube.comaa";
+let str13 = "www.youtube.in";
+
+let pattern8 = /www\.[\w]+\.com/;
+let pattern9 = /^www\.[\w]+\.com$/;
+let pattern10 = /^www\.[\w]+\.(com|in|co)$/;
+
+console.log("Pattern 8 : " + pattern8);
+
+console.log(str9.match(pattern8));
+console.log(str10.match(pattern8));
+console.log(str11.match(pattern8));
+console.log(str12.match(pattern8));
+console.log(str13.match(pattern8));
+
+console.log("Pattern 9 : " + pattern9);
+
+console.log(str9.match(pattern9));
+console.log(str10.match(pattern9));
+console.log(str11.match(pattern9));
+console.log(str12.match(pattern9));
+console.log(str13.match(pattern9));
+
+console.log("Pattern 10 : " + pattern10);
+
+console.log(str9.match(pattern10));
+console.log(str10.match(pattern10));
+console.log(str11.match(pattern10));
+console.log(str12.match(pattern10));
+console.log(str13.match(pattern10));

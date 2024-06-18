@@ -3,15 +3,123 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>JS</title>
+    <title>JS ReGex Quantifiers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1><mark>Let's Learn JavaScript's in built String Functions</mark></h1>
-    <h2>Open Console to see the output for the JavaScript code.</h2>
+    <h1><mark>Let's Learn JavaScript's ReGex Quantifiers</mark></h1>
     <h2>The code in the external JS file is as follows.</h2>
 
+    <h2>The n+ quantifier matches any string that contains at least one n.</h2>
+    <p id="demo1"></p>
+    <pre><code>
+      let text = "Hellooo World! Hello W3Schools!";
+      let pattern = /o+/g;
+      let result = text.match(pattern);
+      
+      document.getElementById("demo1").innerHTML = result;
+    </code></pre>
+
+    <h2>The n* quantifier matches any string that contains zero or more occurrences of n.</h2>
+    <p id="demo2"></p>
+    <pre><code>
+      text = "Hellooo World! Hello W3Schools!";
+      pattern = /lo*/g;
+      result = text.match(pattern);
+
+      document.getElementById("demo2").innerHTML = result;
+    </code></pre>
+
+    <h2>The n? quantifier matches any string that contains zero or one occurrences of n.</h2>
+    <p id="demo3"></p>
+    <pre><code>
+      text = "1, 100 or 1000?";
+      pattern = /10?/g;
+      result = text.match(pattern);
+      
+      document.getElementById("demo3").innerHTML = result;
+    </code></pre>
+
+    <h2>
+      The n{X} quantifier matches any string that contains a sequence of X n's. X must be a number.
+    </h2>
+    <p id="demo4"></p>
+    <pre><code>
+      text = "100, 1000 or 10000?";
+      pattern = /\d{4}/g;
+      result = text.match(pattern);
+      
+      document.getElementById("demo4").innerHTML = result;
+    </code></pre>
+
+    <h2>
+      The n{X,Y} quantifier matches any string that contains a sequence of X to Y n's. X and Y must
+      be a number.
+    </h2>
+    <p id="demo5"></p>
+    <pre><code>
+      text = "100, 1000 or 10000?";
+      pattern = /\d{3,4}/g;
+      result = text.match(pattern);
+      
+      document.getElementById("demo5").innerHTML = result;
+    </code></pre>
+
+    <h2>
+      The n{X,} quantifier matches any string that contains a sequence of at least X n's. X must be
+      a number.
+    </h2>
+    <p id="demo6"></p>
+    <pre><code>
+      text = "100, 1000 or 10000?";
+      pattern = /\d{3,}/g;
+      result = text.match(pattern);
+      
+      document.getElementById("demo6").innerHTML = result;
+    </code></pre>
+
+    <h2>The ^n quantifier matches any string with n at the beginning of it.</h2>
+
+    <p id="demo7"></p>
+    <pre><code>
+      text = "Is this his";
+      pattern = /^Is/g;
+      result = text.match(pattern);
+      
+      document.getElementById("demo7").innerHTML = result;
+    </code></pre>
+
+    <h2>The n$ quantifier matches any string with n at the end of it.</h2>
+    <p id="demo8"></p>
+    <pre><code>
+      text = "Is this his";
+      pattern = /is$/;
+      result = text.match(pattern);
+      
+      document.getElementById("demo8").innerHTML = result;
+      
+    </code></pre>
+
+    <h2>The ?=n quantifier matches any string that is followed by a specific string n.</h2>
+    <p id="demo9"></p>
+    <pre><code>
+      text = "Is thisall there is is";
+      pattern = /is(?=all)/;
+      result = text.match(pattern);
+      
+      document.getElementById("demo9").innerHTML = result;
+    </code></pre>
+
+    <h2>The ?!n quantifier matches any string that is not followed by a specific string n.</h2>
+    <p id="demo10"></p>
+    <pre><code>
+      text = "Is this all there is is";
+      pattern = /is(?! all)/gi;
+      result = text.match(pattern);
+      
+      document.getElementById("demo10").innerHTML = result;
+    </code></pre>
     <script type="text/javascript" src="./script.js" async defer></script>
   </body>
 </html>

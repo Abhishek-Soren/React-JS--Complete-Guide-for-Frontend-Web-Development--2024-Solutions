@@ -9,8 +9,12 @@
   </head>
   <body>
     <form id="form">
-      <input type="text" name="username" id="usernamw" />
-      <input type="password" name="password" id="password" />
+      <input type="text" name="username" id="username" placeholder="Username" />
+      <p id="error">
+        Please enter a valid Username. Username should only have alphabets and digits and be 6 to 12
+        characters long.
+      </p>
+      <input type="password" name="password" id="password" placeholder="Password" />
       <input type="submit" value="Submit" id="submit-btn" />
     </form>
     <script type="text/javascript" src="./script.js" async defer></script>

@@ -12,6 +12,38 @@
     <h2>Open Console to see the output for the JavaScript code.</h2>
     <h2>The code in the external JS file is as follows.</h2>
 
+    <pre><code>
+      console.clear()
+
+      // Create an Object
+      const obj = {
+        firstName: "Abhishek",
+        lastName: "Soren",
+
+        display: () => {
+          console.log(obj.firstName)
+          console.log(obj.lastName)
+        },
+
+        displayAgain: function() {
+          return `${this.firstName} ${this.lastName}`
+        }
+      }
+
+      obj.display()
+
+      const newObj = obj
+
+      newObj.firstName = "Potato"
+
+      newObj.display()
+      obj.display()
+
+      // Invoke displayAgain
+      console.log(obj.displayAgain())
+
+    </code></pre>
+
     <script type="text/javascript" src="./script.js" async defer></script>
   </body>
 </html>
